@@ -1,0 +1,4 @@
+let fs = require("fs");
+console.log("Started ececuting");
+console.log("cpu is stuck");
+
