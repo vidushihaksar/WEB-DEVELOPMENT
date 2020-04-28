@@ -1,0 +1,1 @@
+node moderators.js "credentials.json" adef

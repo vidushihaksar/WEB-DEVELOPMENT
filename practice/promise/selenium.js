@@ -81,35 +81,40 @@ credentialFileWillBeReadPromise.then(function(credentials){
 
 
 // function gotoQue(){
-//     .then(function(){
-//         let lisTabToBeLocatedPromise = driver.wait(swd.until.elementsLocated(swd.By.css(".lis.tab"),10000))
-//         return lisTabToBeLocatedPromise;
-//     })
+
+    // .then(function(){
+    //     let lisTabToBeLocatedPromise = driver.wait(swd.until.elementsLocated(swd.By.css(".lis.tab"),10000))
+    //     return lisTabToBeLocatedPromise;
+    // })
     
     
-//     .then(function(){
-//         let modulesWillBeSelectedPromise =     driver.findElements(swd.By.css(".lis.tab"));
-//         return modulesWillBeSelectedPromise;
-//     }).then(function(modules){
-//         gModules = modules;
+    // .then(function(){
+    //     let modulesWillBeSelectedPromise =     driver.findElements(swd.By.css(".lis.tab"));
+    //     return modulesWillBeSelectedPromise;
+
+    // }).then(function(modules){
+    //     gModules = modules;
     
-//         let modulesTextPromiseArr=[];
-//         for(let i=0; i< modules.length; i++){
-//             let moduleNAmePromise = modules[i].getText();
-//             modulesTextPromiseArr.push(moduleNAmePromise);
-//         }
-//         let AllModuleNamePromise = Promise.all(modulesTextPromiseArr);
-//         return AllModuleNamePromise;
-//     }).then(function(AllModuleText){
-//         let i;
-//         for(i=0; i< AllModuleText.length; i++){
-//             if(AllModuleText[i].includes("Dynamic Programming")==true){
-//                 break;
-//             }
-//         }
+    //     let modulesTextPromiseArr=[];
+
+    //     for(let i=0; i< modules.length; i++){
+    //         let moduleNAmePromise = modules[i].getText();
+    //         modulesTextPromiseArr.push(moduleNAmePromise);
+    //     }
+    //     let AllModuleNamePromise = Promise.all(modulesTextPromiseArr);
+    //     return AllModuleNamePromise;
+
+    // }).then(function(AllModuleText){
+    //     let i;
+    //     for(i=0; i< AllModuleText.length; i++){
     
-//         let moduleWillBeClickedPromise = gModules[i].click();
-//         return moduleWillBeClickedPromise;
+    //         if(AllModuleText[i].includes("Dynamic Programming")==true){
+    //             break;
+    //         }
+    //     }
+    
+    //     let moduleWillBeClickedPromise = gModules[i].click();
+    //     return moduleWillBeClickedPromise;
 //     }).then(function(){
     
 //     })
