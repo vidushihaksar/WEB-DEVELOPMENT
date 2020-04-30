@@ -66,6 +66,7 @@ credentialFileWillBeReadPromise.then(function(credentials){
 .then(function(){
     let courseWillBeLocatedPromise = driver.findElement(swd.By.css("#courseCard33"))
     return courseWillBeLocatedPromise;
+    
 }).then(function(courseCard){
     let courseCardWillBeClickedPromise = courseCard.click();
     return courseCardWillBeClickedPromise;
