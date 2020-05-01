@@ -1,1 +1,1 @@
-node moderators.js "credentials.json" adef
+node moderators.js "./credentials.json" "./questions.js" adef
